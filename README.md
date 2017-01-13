@@ -67,6 +67,7 @@ After you complete installation, you are ready to DRY up your CSS and add new aw
 I'm glad you asked! Let's dive right into some of the awesome features of this preprocessing language!
 
 1. ***Variables***
+Just like in Javascript, the programmer can save values into a variable, names of which are denoted with a `$`
 
 
 
