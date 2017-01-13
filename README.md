@@ -67,7 +67,7 @@ Sass 3.4.23 (Selective Steve)
 
 If you're running on Windows, you'll first need to download and install Ruby. Check this [link](http://rubyinstaller.org/) to do just that, then follow the steps listed above.
 
-####After you complete installation, you are ready to DRY up your CSS and add new awesome functionality to it! 
+***After you complete installation, you are ready to DRY up your CSS and add new awesome functionality to it!***
 
 <!-- Part 2 (Often answers “how can I do this?”)
 Part 3 (Often expands on how cool this is.)
