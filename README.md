@@ -15,28 +15,7 @@ Sounds pretty good to me, but...
 
 For those of you that are familiar with CSS, you may be aware that writing CSS code can be very repetitive. The extent to which code repeats also increases the difficulty of its maintainability. The programmer must search through many lines of code in order to upkeep visual 'cleanliness' of not only the code itself, but also of the web pages which the code represents.
 
-SASS was created to improve these drawbacks of writing CSS. SASS allows for nesting code, creating variables, and using for-loops; in fact, one can create and extend class-like objects - just like object oriented programming in Javascript! What once may have taken you 20 lines of code in order to style the third ```<p>``` tag in a nested ```<div>``` tag may only take you 10 or 15 lines of code; it may not seem like much, but what if your code base contains hundreds of lines? A few lines removed here and there might add up. In addition, the allowance for nesting of code blocks increases the readability of the code base. Imagine having:
-```
-div{
-    a{
-        //targets <a> tags nested in div with styling here
-    }
-    p{
-        //targets <p> tags nested in same div with more styling
-    }
-}
-```
-instead of:
-```
-div a{
-    //same as above
-}
-
-div p{
-    //same as above
-}
-```
-In this particular example, nesting the tags within the div didn't happen to save the programmer from writing noticeably fewer lines of code, although it did DRY up the code and (in my opinion) increase its readability. Imagine the possibilities on a larger code base!
+SASS was created to improve these drawbacks of writing CSS. SASS allows for nesting code, creating variables, and using for-loops; in fact, one can create and extend class-like objects - just like object oriented programming in Javascript! What once may have taken you 20 lines of code in order to style the third ```<p>``` tag in a nested ```<div>``` tag may only take you 10 or 15 lines of code; it may not seem like much, but what if your code base contains hundreds of lines? A few lines removed here and there might add up. In addition, the allowance for nesting of code blocks increases the readability of the code base.
 
 Now that I've finally got your attention, you might be wondering:
 
@@ -76,6 +55,32 @@ For example, she can save a color ```$almostBloodRed : $FF8000```, a width ```$t
     width: $theMostEvilWidth;
 }
 ```
+Ok, maybe ***Slaytanic*** isn't really a font style, but I'm sure you get the idea that values saved in variables can be passed into HTML elements.
+
+2. ***Nesting***
+
+Imagine having:
+```
+div{
+    a{
+        //targets <a> tags nested in div with styling here
+    }
+    p{
+        //targets <p> tags nested in same div with more styling
+    }
+}
+```
+instead of:
+```
+div a{
+    //same as above
+}
+
+div p{
+    //same as above
+}
+```
+In this particular example, nesting the tags within the div didn't happen to save the programmer from writing noticeably fewer lines of code, although it did DRY up the code and (in my opinion) increase its readability. Imagine the possibilities on a larger code base!
 
 ##References:
 
