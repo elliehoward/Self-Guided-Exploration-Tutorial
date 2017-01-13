@@ -58,24 +58,25 @@ Now that I've finally got your attention, you might be wondering:
 
 #How can I do this?
 
-First, you'll need to make sure that you have SASS installed, which runs off Ruby Gem (which I'm not familiar with myself). If you're running iOS, this isn't a problem, as Ruby comes pre-installed on the Mac. In your terminal, simply type
+First, you'll need to make sure that you have SASS installed, which runs off Ruby Gem (which I'm not familiar with myself). If you're running iOS, this isn't a problem, as Ruby comes pre-installed on the Mac. In your terminal, simply type:
 
 ```
 gem install sass
 ```
 
-Ensure you have SASS installed by then typing
+Ensure you have SASS installed by then typing:
 
 ```
 sass -v
 ```
 
-You should see something like
+You should see something like:
 
 ```
 Sass 3.4.23 (Selective Steve)
 ```
 
+If you're running on Windows, you'll first need to download and install Ruby. Check this [link](http://rubyinstaller.org/) to do just that.
 
 
 
