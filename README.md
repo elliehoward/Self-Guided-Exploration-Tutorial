@@ -66,6 +66,8 @@ After you complete installation, you are ready to DRY up your CSS and add new aw
 
 I'm glad you asked! Let's dive right into some of the awesome features of this preprocessing language!
 
+1. ***Variables***
+
 
 
 ##References:
