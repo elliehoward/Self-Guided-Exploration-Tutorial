@@ -1,17 +1,5 @@
 # SASS & SCSS: An Introductory Tutorial into Syntactically Awesome Style Sheets and Sassy Cascading Style Sheets
 
-List of Prerequisite skills/knowledge for the target audience
-
-A summary description of the technology or skill being described
-At least 5 sub sections
-Intro
-Part 1 (Often answers “why would I want to do this?”)
-Part 2 (Often answers “how can I do this?”)
-Part 3 (Often expands on how cool this is.)
-Conclusion
-Sections which are to include code should be flagged -- at least one section MUST include code examples.
-In addition to the outline, a github repo must be prepared at this point to hold additional code samples. This repo does not have to be a complete project, but it does have to exist.
-
 #Introduction:
 
 SASS and SCSS, or Syntactically Awesome Style Sheets and Sassy Cascading Style Sheets, are not web page frameworks (Like Bootstrap or Materialize for HTML), and they're not libraries built on top of existing languages (like jQuery for Javascript)... So what are they?
@@ -78,7 +66,9 @@ Sass 3.4.23 (Selective Steve)
 
 If you're running on Windows, you'll first need to download and install Ruby. Check this [link](http://rubyinstaller.org/) to do just that.
 
-
+<!-- Part 2 (Often answers “how can I do this?”)
+Part 3 (Often expands on how cool this is.)
+Conclusion -->
 
 # References:
 
