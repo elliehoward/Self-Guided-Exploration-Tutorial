@@ -55,7 +55,7 @@ For example, she can save a color ```$almostBloodRed : $FF8000```, a width ```$t
     width: $theMostEvilWidth;
 }
 ```
-Ok, maybe ***Slaytanic*** isn't really a font style, but I'm sure you get the idea that values saved in variables can be passed into HTML elements.
+Ok, maybe *Slaytanic* isn't really a font style, but I'm sure you get the idea that values saved in variables can be passed into HTML elements.
 
 2. ***Nesting***
 
