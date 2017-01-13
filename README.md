@@ -1,6 +1,6 @@
 # SASS & SCSS: An Introductory Tutorial into Syntactically Awesome Style Sheets and Sassy Cascading Style Sheets
 
-#Introduction:
+##Introduction:
 
 SASS and SCSS, or Syntactically Awesome Style Sheets and Sassy Cascading Style Sheets, are not web page frameworks (Like Bootstrap or Materialize for HTML), and they're not libraries built on top of existing languages (like jQuery for Javascript)... So what are they?
 
@@ -10,7 +10,7 @@ What is a preprocessor you ask? Again, we refer to our tutor Nick, who tells us 
 
 Sounds pretty good to me, but...
 
-# Why do we care?
+##Why do we care?
 
 For those of you that are familiar with CSS, you may be aware that writing CSS code can be very repetitive. The extent to which code repeats also increases the difficulty of its maintainability. The programmer must search through many lines of code in order to upkeep visual 'cleanliness' of not only the code itself, but also of the web pages which the code represents.
 
@@ -44,7 +44,7 @@ In this particular example, nesting the tags within the div didn't happen to sav
 
 Now that I've finally got your attention, you might be wondering:
 
-#How can I do this?
+##How can I do this?
 
 First, you'll need to make sure that you have SASS installed, which runs off Ruby Gem (which I'm not familiar with myself). If you're running iOS, this isn't a problem, as Ruby comes pre-installed on the Mac. In your terminal, simply type:
 
