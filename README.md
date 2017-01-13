@@ -1,5 +1,5 @@
 # SASS & SCSS:
-##An Introductory Tutorial into Syntactically Awesome Style Sheets and Sassy Cascading Style Sheets
+##An introduction to Syntactically Awesome Style Sheets and Sassy Cascading Style Sheets
 
 ###Introduction:
 
@@ -65,7 +65,7 @@ You should see something like:
 Sass 3.4.23 (Selective Steve)
 ```
 
-If you're running on Windows, you'll first need to download and install Ruby. Check this [link](http://rubyinstaller.org/) to do just that.
+If you're running on Windows, you'll first need to download and install Ruby. Check this [link](http://rubyinstaller.org/) to do just that, then follow the steps listed above.
 
 <!-- Part 2 (Often answers “how can I do this?”)
 Part 3 (Often expands on how cool this is.)
