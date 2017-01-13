@@ -1,4 +1,4 @@
-# SASS AND SCSS: An Introductory Tutorial into Syntactically Awesome Style Sheets and Sassy Cascading Style Sheets
+# SASS & SCSS: An Introductory Tutorial into Syntactically Awesome Style Sheets and Sassy Cascading Style Sheets
 
 List of Prerequisite skills/knowledge for the target audience
 
