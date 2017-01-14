@@ -39,7 +39,7 @@ If you have an existing project you want converted from CSS into SASS, you'll ne
 
 After you complete installation, you are ready to DRY up your CSS and add new awesome functionality to it!
 
-###Just how cool is SASS anyways?
+###Just how cool is SASS, anyways?
 
 I'm glad you asked! Let's dive right into a few of the awesome features of this preprocessing language.
 
