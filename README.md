@@ -169,7 +169,7 @@ equates to:
   border-radius: 10px;
 }
 ```
-The `@mixin` is called a directive, which seems like it's equivalent to JS's `function` keyword. Then we give this 'function', or `@mixin` a name of "border-radius", and we get it a bunch of 'methods' that also may look familiar to the OOPer. Then we 'instantiate' a `div` of class `box` that inherits all of the `border-radius`'s properties.
+The `@mixin` is called a *directive*, which seems like it's equivalent to JS's `function` keyword. Then we give this 'function', or `@mixin` a name of "border-radius", and we give it a bunch of 'methods' that also may look familiar to the OOPer. Then we 'instantiate' a `div` of class `box` that inherits all of the `border-radius`'s properties.
 
 If you don't see the potential for DRYing up your CSS by this point using SASS... then I only have one question for you:
 <br>
