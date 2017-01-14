@@ -43,7 +43,7 @@ After you complete installation, you are ready to DRY up your CSS and add new aw
 
 I'm glad you asked! Let's dive right into a few of the awesome features of this preprocessing language.
 
-1. ***Variables***<br>
+1\. ***Variables***<br>
 Just like in Javascript, the programmer can save values in a variable, names of which are prefixed by a `$`.
 For example, we can save the color ```$almostBloodRed : $FF8000```, a width ```$theMostEvilWidth : 66.6%```, or even a font-type ```$theMostEvilFont : Slaytanic``` and pass them into the `<div>` with an id of `#divil`:
 ```
