@@ -143,7 +143,10 @@ I'm sure you can guess as to what the above code compiles:
   background-image: background-image: url("http://www.slayer.com/");
 }
 ```
-Now *thats* DRYing things up, isn't it?
+Now *thats* DRYing things up, isn't it? (By the way, it's Friday the 13th, hence my evil lines programming. Since were here, time for some shameless self promotion... listen to my metal band: [Downpresser](https://www.youtube.com/watch?v=lp8c-EU6HXg&list=PLSbGOHgLB0sSI2fzSfXGBt1TYKsisQYTX))
+
+4. ***Mixins***<br>
+"Mixins" are where SASS gets particularly object-oriented. It's almost as though we can create a class and give it a bunch of methods, and the new instantiations of that class inherit the same values. If you're not familiar to that which I'm referring, check out this [link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects).
 
 ##References:
 
