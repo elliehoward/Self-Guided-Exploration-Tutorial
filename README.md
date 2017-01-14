@@ -171,9 +171,13 @@ equates to:
 ```
 The `@mixin` is called a *directive*, which seems like it's equivalent to JS's `function` keyword. Then we give this 'function', or `@mixin` a name of "border-radius", and we give it a bunch of 'methods' that also may look familiar to the OOPer. Then we 'instantiate' a `div` of class `box` that inherits all of the `border-radius`'s properties.
 
-If you don't see the potential for DRYing up your CSS by this point using SASS... then I only have one question for you:
+As the programmer hopefully now sees, there is a ton of potential for making your CSS code cleaner, more legible, and less repetitive. And that is just the beginning of what SASS and SCSS can do - I've only touched upon the main topics. Other things SASS is great at includes using loops, if statements, and even math in your CSS code blocks.
+
+And, by this point, if you don't see the potential for improving your CSS in many ways using SASS... then I only have one question for you:
 <br>
-Do you even 'gram, bro?
+<br>
+Do you even CSS, bro?
+<br>
 <br>
 I mean, DAMN, SASS === SIQ. I can feel it's SASSyness flowing through my veins. Can you tell? Maybe it's time for a beer...
 
