@@ -119,7 +119,7 @@ nav a {
 ```
 Now we're really seeing the possibilities of nesting `<div>`s within one another in our CSS files.
 
-2. ***Extending***<br>
+3. ***Extending***<br>
 Just like extending attributes from classes, we can extend properties from certain `<div>`s into others as well.
 If we have an element with an id of `divil`...
 ```
