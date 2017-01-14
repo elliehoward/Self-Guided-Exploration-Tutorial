@@ -143,10 +143,39 @@ I'm sure you can guess as to what the above code compiles:
   background-image: background-image: url("http://www.slayer.com/");
 }
 ```
-Now *thats* DRYing things up, isn't it? (By the way, it's Friday the 13th, hence my evil lines programming. Since were here, time for some shameless self promotion... listen to my metal band: [Downpresser](https://www.youtube.com/watch?v=lp8c-EU6HXg&list=PLSbGOHgLB0sSI2fzSfXGBt1TYKsisQYTX))
+Now *thats* DRYing things up, isn't it? (By the way, it's Friday the 13th, hence my evil code. Since we're on that note, time for some shameless self promotion... listen to my metal band: [Downpresser](https://www.youtube.com/watch?v=lp8c-EU6HXg&list=PLSbGOHgLB0sSI2fzSfXGBt1TYKsisQYTX))
 
 4\. ***Mixins***<br>
-"Mixins" are where SASS gets particularly object-oriented. It's almost as though we can create a class and give it a bunch of methods, and the new instantiations of that class inherit the same values. If you're not familiar with what I'm referring to, check out this [link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects).
+"Mixins" are where SASS gets particularly object-oriented and is a great part of why SASS can be so DRYing. It's almost as though we can create a class and give it a bunch of methods, and the new instantiations of that class inherit the same values. If you're not familiar with what I'm referring to, check out this [link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects).
+
+For example (take from the originators of [SASS](http://sass-lang.com/guide)):
+```
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+```
+```
+.box { @include border-radius(10px); }
+```
+equates to:
+```
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+```
+The `@mixin` is called a directive, which seems like it's equivalent to JS's `function` keyword. Then we give this 'function', or `@mixin` a name of "border-radius", and we get it a bunch of 'methods' that also may look familiar to the OOPer. Then we 'instantiate' a `div` of class `box` that inherits all of the `border-radius`'s properties.
+
+If you don't see the potential for DRYing up your CSS by this point using SASS... then I only have one question for you:
+<br>
+Do you even 'gram, bro?
+<br>
+I mean, DAMN, SASS === SIQ. I can feel it's SASSyness flowing through my veins. Can you tell? Maybe it's time for a beer...
 
 ##References:
 
