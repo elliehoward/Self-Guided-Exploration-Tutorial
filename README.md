@@ -148,7 +148,7 @@ Now *thats* DRYing things up, isn't it? (By the way, it's Friday the 13th, hence
 4\. ***Mixins***<br>
 "Mixins" are where SASS gets particularly object-oriented and is a great part of why SASS can be so DRYing. It's almost as though we can create a class and give it a bunch of methods, and the new instantiations of that class inherit the same values. If you're not familiar with what I'm referring to, check out this [link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects).
 
-For example (take from the originators of [SASS](http://sass-lang.com/guide)):
+For example (borrowed from the originators of [SASS](http://sass-lang.com/guide)):
 ```
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
