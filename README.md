@@ -57,7 +57,7 @@ For example, she can save a color ```$almostBloodRed : $FF8000```, a width ```$t
 ```
 Ok, maybe *Slaytanic* isn't really a font style, but I'm sure you understand that values saved in variables can then be passed into HTML elements.
 
-\2\. ***Nesting***<br>
+2\. ***Nesting***<br>
 Imagine having:
 ```
 #divvy{
@@ -119,7 +119,7 @@ nav a {
 ```
 Now we're really seeing the possibilities of nesting `<div>`s within one another in our CSS files.
 
-\3\. ***Extending***<br>
+3\. ***Extending***<br>
 Just like extending attributes from classes, we can extend properties from certain `<div>`s into others as well.
 If we have an element with an id of `divil`...
 ```
@@ -145,7 +145,7 @@ I'm sure you can guess as to what the above code compiles:
 ```
 Now *thats* DRYing things up, isn't it? (By the way, it's Friday the 13th, hence my evil lines programming. Since were here, time for some shameless self promotion... listen to my metal band: [Downpresser](https://www.youtube.com/watch?v=lp8c-EU6HXg&list=PLSbGOHgLB0sSI2fzSfXGBt1TYKsisQYTX))
 
-\4\. ***Mixins***<br>
+4\. ***Mixins***<br>
 "Mixins" are where SASS gets particularly object-oriented. It's almost as though we can create a class and give it a bunch of methods, and the new instantiations of that class inherit the same values. If you're not familiar with what I'm referring to, check out this [link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects).
 
 ##References:
