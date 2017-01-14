@@ -57,34 +57,93 @@ For example, she can save a color ```$almostBloodRed : $FF8000```, a width ```$t
 ```
 Ok, maybe *Slaytanic* isn't really a font style, but I'm sure you get the idea that values saved in variables can be passed into HTML elements.
 
-2. ***Nesting***
-
+2. ***Nesting***<br>
 Imagine having:
 ```
-div{
+#divvy{
     a{
-        //targets <a> tags nested in div with styling here
+        //targets <a> tags nested in divvy and only divvy
     }
     p{
-        //targets <p> tags nested in same div with more styling
+        //targets <p> tags nested in divvy as well
     }
 }
 ```
 instead of:
 ```
-div a{
+#divvy a{
     //same as above
 }
 
-div p{
+#divvy p{
     //same as above
 }
 ```
 In this particular example, nesting the tags within the div didn't happen to save the programmer from writing noticeably fewer lines of code, although it did DRY up the code and (in my opinion) increase its readability. Imagine the possibilities on a larger code base!
 
-Here's another example:
+Here's a better example (Thanks to [Nick](http://callmenick.com/post/an-introduction-to-sass-scss) for this one):
+```
+nav {
+  text-align: center;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    display: block;
+    padding: 5px 10px;
+  }
+}
+```
+which compiles to the following CSS:
+```
+nav {
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 5px 10px;
+}
+```
+Now we're really seeing the possibilities of nesting `<div>`s within one another in our CSS files.
 
-
+2. ***Extending***<br>
+Just like extending attributes from classes, we can extend properties from certain `<div>`s into others as well.
+If we have an element with an id of `divil`...
+```
+#divil{
+    width: 60px;
+    font-color: blue;
+    background-image: background-image: url("http://www.slayer.com/");
+}
+```
+We can extend those attributes into one or many other elements:
+```
+.spawnOfThedivil{
+  @extend #divil
+}
+```
+I'm sure you can guess as to what the above code compiles:
+```
+.spawnOfThedivil{
+  width: 60px;
+  font-color: blue;
+  background-image: background-image: url("http://www.slayer.com/");
+}
+```
+Now *thats* DRYing things up, isn't it?
 
 ##References:
 
