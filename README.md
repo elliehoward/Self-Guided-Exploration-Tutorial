@@ -5,9 +5,9 @@
 
 SASS and SCSS, or Syntactically Awesome Style Sheets and Sassy Cascading Style Sheets, are not web page frameworks (Like Bootstrap or Materialize for HTML), and they're not libraries built on top of existing languages (like jQuery for Javascript)... So what are they?
 
-The terms SASS and SCSS are used somewhat interchangeably by the developer, however they have slight differences. "SASS", as the front-end developer/blogger Nick (yes, just Nick) explains, "refers to the preprocessor and syntax as a whole," while "SCSS falls under the umbrella of SASS." He continues, "[SASS] is a CSS syntax that's been turbocharged with all the goodness of SASS." Andrew Chalkley from Team Treehouse adds that "SCSS looks more like what you’re used to with CSS, but it has 'Sassy' features like variables, mixins, nesting and selector inheritance."
+The terms SASS and SCSS are used somewhat interchangeably by the developer, however they have slight differences. "SASS", as the front-end developer/blogger Nick explains, "refers to the preprocessor and syntax as a whole," while "SCSS falls under the umbrella of SASS." He continues, "[SASS] is a CSS syntax that's been turbocharged with all the goodness of SASS." Andrew Chalkley from Team Treehouse adds that "SCSS looks more like what you’re used to with CSS, but it has 'Sassy' features like variables, mixins, nesting and selector inheritance."
 
-What is a preprocessor you ask? Again, we refer to our tutor Nick, who tells us that "preprocessors are tools that allow us to code CSS in a certain way, and process it into readable, pure CSS." Specifically, they compile (or, for the purposes of this tutorial, translate) from SASS into the same exact language as CSS.
+More on some of these terms later, but let's talk about that preprocessor. Again, we'll refer to our tutor Nick, who tells us that "preprocessors are tools that allow us to code CSS in a certain way, and process it into readable, pure CSS." Specifically, they compile (or, for the purposes of this tutorial, translate) from SASS into the same exact language as CSS.
 
 Sounds pretty good to me, but...
 
@@ -15,7 +15,7 @@ Sounds pretty good to me, but...
 
 For those of you that are familiar with CSS, you may be aware that writing CSS code can be very repetitive. The extent to which code repeats also increases the difficulty of its maintainability. The programmer must search through many lines of code in order to upkeep its visual 'cleanliness'.
 
-SASS was created to improve these drawbacks of writing CSS. SASS allows for nesting code, creating variables, and using for-loops; in fact, one can create and extend class-like objects - just like object oriented programming (specifically ES6) in Javascript! What once may have taken you 20 lines of code to style the third ```<p>``` tag in a nested ```<div>``` tag may only take you 10 or 15 lines of code with SASS; it may not seem like much, but what if your code base contains a few hundred lines? A few lines removed here and there might add up. In addition, the allowance for nesting of code blocks increases the readability of code blocks.
+SASS was created to improve these drawbacks of writing CSS. SASS allows for the nesting of code, creating variables, and using for-loops; in fact, one can create and extend class-like objects - just like object oriented programming (specifically ES6) in Javascript! What once may have taken you 8 lines of code to style the third ```<p>``` tag in a nested ```<div>``` tag may only take you 5-6 lines of code with SASS; it may not seem like much, but what if your code base contains a few hundred lines? A few lines removed here and there might add up. In addition, the allowance for nesting of code blocks increases their legibility.
 
 Now that I've finally got your attention, you might be wondering:
 
@@ -41,19 +41,19 @@ After you complete installation, you are ready to DRY up your CSS and add new aw
 
 ###Just how cool is SASS, anyways?
 
-I'm glad you asked! Let's dive right into a few of the awesome features of this preprocessing language.
+I'm glad you asked! Let's dive right into a few of the awesome features of this preprocessing language that I previously mentioned.
 
 1\. ***Variables***<br>
 Just like in Javascript, the programmer can save values in a variable, names of which are prefixed by a `$`.
-For example, we can save the color ```$almostBloodRed : $FF8000```, a width ```$theMostEvilWidth : 66.6%```, or even a font-type ```$theMostEvilFont : Slaytanic``` and pass them into the `<div>` with an id of `#divil`:
+For example, we can save the color ```$almostRed : $FF8000```, a width ```$prettyWide : 60%```, or even a font-type ```$reallyCoolFont : awesome``` and pass them into the `<div>` with an id of `#divil`:
 ```
 #divil{
-    font-type: $theMostEvilFont;
-    font-color: $almostBloodRed;
-    width: $theMostEvilWidth;
+    font-type: $reallyCoolFont;
+    font-color: $almostRed;
+    width: $prettyWide;
 }
 ```
-Ok, maybe *Slaytanic* isn't really a font style, but I'm sure you understand that values saved in variables can then be passed into HTML elements.
+Pretty straightforward, right? Now there's no remembering or referring back to previous lines of code for those RGB or Hex values.
 
 2\. ***Nesting***<br>
 Imagine having:
@@ -141,7 +141,7 @@ I'm sure you can guess as to what the above code compiles:
   background-image: background-image: url("http://www.slayer.com/");
 }
 ```
-Now *thats* DRYing things up, isn't it? (By the way, it's Friday the 13th, hence my evil code. Since we're on that note, time for some shameless self promotion - listen to my metal band: [Downpresser](https://www.youtube.com/watch?v=lp8c-EU6HXg&list=PLSbGOHgLB0sSI2fzSfXGBt1TYKsisQYTX))
+Now *thats* DRYing things up, isn't it? (By the way, it's Friday the 13th, hence my evil code.)
 
 4\. ***Mixins***<br>
 "Mixins" are where SASS gets particularly object-oriented and is a great part of why SASS can be so DRYing. It's almost as though we can create a class and give it a bunch of methods, and the new instantiations of that class inherit the same values. If you're not familiar with what I'm referring to, check out this [link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects).
@@ -177,7 +177,7 @@ And, by this point, if you don't see the potential for improving your CSS in man
 Do you even CSS, bro?
 <br>
 <br>
-I mean, DAMN. SASS === SIQ. I can feel it's SASSyness flowing through my veins. Can you tell? Maybe it's time for a beer...
+I mean, DAMN. SASS === SIQ. So get started on learning SASS and get on to making your CSS extra DRY and even more legible!
 
 ##References:
 
