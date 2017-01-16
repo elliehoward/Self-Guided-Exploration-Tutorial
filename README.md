@@ -5,9 +5,9 @@
 
 SASS and SCSS, or Syntactically Awesome Style Sheets and Sassy Cascading Style Sheets, are not web page frameworks (Like Bootstrap or Materialize for HTML), and they're not libraries built on top of existing languages (like jQuery for Javascript)... So what are they?
 
-SASS and SCSS are used somewhat interchangeably by the developer, however they have slight differences. "SASS", as the front-end developer/blogger "Nick" explains, "refers to the preprocessor and syntax as a whole," while "SCSS falls under the umbrella of SASS." He continues, "[SASS] is a CSS syntax that's been turbocharged with all the goodness of SASS." Andrew Chalkley from Team Treehouse adds that "SCSS looks more like what you’re used to with CSS, but it has 'Sassy' features like variables, mixins, nesting and selector inheritance."
+The terms SASS and SCSS are used somewhat interchangeably by the developer, however they have slight differences. "SASS", as the front-end developer/blogger Nick (yes, just Nick) explains, "refers to the preprocessor and syntax as a whole," while "SCSS falls under the umbrella of SASS." He continues, "[SASS] is a CSS syntax that's been turbocharged with all the goodness of SASS." Andrew Chalkley from Team Treehouse adds that "SCSS looks more like what you’re used to with CSS, but it has 'Sassy' features like variables, mixins, nesting and selector inheritance."
 
-What is a preprocessor you ask? Again, we refer to our tutor Nick, who tells us that "preprocessors are tools that allow us to code CSS in a certain way, and process it into readable, pure CSS." Specifically, they compile (or, for now, are translated by the computer) from SASS into the same exact language as CSS.
+What is a preprocessor you ask? Again, we refer to our tutor Nick, who tells us that "preprocessors are tools that allow us to code CSS in a certain way, and process it into readable, pure CSS." Specifically, they compile (or, for the purposes of this tutorial, translate) from SASS into the same exact language as CSS.
 
 Sounds pretty good to me, but...
 
